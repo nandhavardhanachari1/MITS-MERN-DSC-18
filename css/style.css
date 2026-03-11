@@ -1,0 +1,42 @@
+/* Tag Selector */
+span{
+    color: aqua;
+    font-size: large;
+}
+/* class Selector */
+.subhead{
+    font-family: sans-serif;
+}
+/* id Selector */
+#para{
+    background-color: aqua;
+    color: red;
+}
+/* Group Selector */
+span,.subhead,h1{
+    background-color: chocolate;
+}
+/* Universal Selector */
+*{
+    background-color: gold;
+}
+/* Decendent Selector */
+div p{
+    color:Green;
+}
+/* Child Selector */
+div > p{
+    color:violet;
+}
+/* Attribute Selector */
+input[type="text"]{
+    color: blue;
+}
+/* Adjcent sibling Selector */
+h1 + p{
+    color: green;
+}
+/* General Sibling */
+h1 ~ p{
+    color: black;
+}

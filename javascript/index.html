@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Java Script</title>
+    <link rel="icon" href="../assets/image.png">
+</head>
+<body>
+    <p id="para">Lorem ipsum dolor sit amet.</p>
+    <ul id="list">
+
+    </ul>
+    <button id="btn">click</button>
+    <!-- <p class="para1">Lorem ipsum dolor sit amet.</p> -->
+    <script>
+        const btn = document.getElementById("btn");
+        btn.addEventListener("click",function(){
+            const li = document.createElement("li");
+            li.innerText = "New li Element";
+            document.getElementById("list").append(li);
+        })
+        // const li = document.createElement("li");
+        // li.innerText = "New li Element";
+        // document.getElementById("list").append(li);
+        // document.getElementById("para").textContent = "Hello World"
+        // document.getElementById("para").innerText = "Hello World";
+        // document.getElementById("para").innerHTML = "<p>Hello World</p>"
+        // var para = document.getElementById("para");
+        // console.log(para);
+        // para.style.color = "red";
+        // para.style.backgroundColor = "green"
+        // para.style.fontSize = "20px"
+        // var para1 = document.getElementsByClassName("para1");
+        // console.log(para1)
+        
+    </script>
+</body>
+</html>
