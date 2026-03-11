@@ -4,8 +4,8 @@ import AuthContext from './AuthContext'
 const AuthProvider = ({children}) => {
     const user = {
         id:1,
-        name:"vikraam",
-        email:"vikraam@gmail.com"
+        name:"Nandha Vardhan Achari",
+        email:"nandhavardhanachar@gmail.com"
     }
   return (
     <AuthContext.Provider value={user}>
